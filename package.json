@@ -6,6 +6,9 @@
     "node": "16.14.0",
     "npm": "8.x"
   },
+  "now": {
+    "dotenv": "variables.env.now"
+  },
   "scripts": {
     "start": "node ./start.js",
     "build": "webpack",
